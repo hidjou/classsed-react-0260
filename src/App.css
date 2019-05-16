@@ -1,33 +1,16 @@
-.App {
-  text-align: center;
+.delete-btn {
+  color: red !important;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.card .card-content .card-title {
+  margin-bottom: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card .card-content p.timestamp {
+  color: #999;
+  margin-bottom: 12px;
 }
-
-.App-link {
-  color: #61dafb;
+.push-in {
+  margin: 50px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.progress {
+  margin: 100px 0;
 }
